@@ -1,4 +1,4 @@
-/var five = require("johnny-five"),
+/*var five = require("johnny-five"),
     board = new five.Board();
 
 board.on("ready", function() {
@@ -9,7 +9,7 @@ board.on("ready", function() {
   // Strobe the pin on/off, defaults to 100ms phases
   led.blink(500);
   ledTest.blink(1000);
-});/
+});*/
 
 var five = require("johnny-five");
 var board = new five.Board();
